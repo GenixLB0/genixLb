@@ -1,0 +1,71 @@
+.content-of-choose-us{
+    display: flex;
+    align-items: center;
+    gap: 35px;
+}
+.title-choose-us{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.title-choose-us h2{
+    margin: 0;
+    font-size: 25px;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+.title-choose-us span{
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 600;
+}
+.info-choose-us p , .why-choose-us-software{
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color:#a39e9e;
+    margin-bottom: 15px;
+    line-height: 25px;
+}
+.info-choose-us p{
+    width: 69%;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: #a39e9e;
+    margin: 8px 0;
+    line-height: 25px;
+}
+
+.bg-container-icon{
+    font-size: 40px;
+    height: 90px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+
+}
+.container-why-choose-us{
+    display: flex;
+    gap: 50px;
+    padding: 50px 150px;
+    align-items: center;
+}
+.img-content-why-choose-us{
+    border-radius: 10px;
+    width: 40%;
+    /* height: 50%; */
+}
+.img-content-why-choose-us img{
+    border-radius: 20px;
+    width: -webkit-fill-available;
+}
+.container-of-choose-us{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+    padding-top: 30px;
+}

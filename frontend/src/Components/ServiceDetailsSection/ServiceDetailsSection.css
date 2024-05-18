@@ -1,0 +1,96 @@
+.service-details-section {
+  margin-top: 60px;
+}
+.service-details-section .title {
+  display: flex;
+  width: 173.555px;
+  height: 26.4px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+
+  color: #292930;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
+
+.service-details-section .content {
+  display: flex;
+  width: 1151.31px;
+  height: 100px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  margin-top: 10px;
+  margin-bottom: 50px;
+  color: #636363;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.service-details-section .tags {
+  width: 585px;
+  height: 45px;
+  display: flex;
+  gap: 25px;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  align-items: center;
+}
+.service-details-section .tags div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  color: #292930;
+  font-family: Rubik;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.service-details-section .readmore {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-bottom: 50px;
+}
+.service-details-section .readmore .plus {
+  color: #ffc226;
+  font-family: "Font Awesome 5 Free";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 12px;
+}
+.service-details-section .readmore .text {
+  color: #292930;
+  font-family: Rubik;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 15px;
+}
+.service-details-section .readmore .read-more {
+  color: #175cff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+  text-decoration-line: underline;
+}
+.service-details-section .content-2 {
+  color: #636363;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}

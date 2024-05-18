@@ -1,0 +1,144 @@
+.SupportCard-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 128px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.support-card{
+    background-color:white;
+    text-align: center;
+    padding: 28px;
+    box-shadow: 0px 0px 117px 0px rgba(196, 206, 213, 0.24);
+    transition: all 0.3s ease-in-out;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 245px;
+    cursor: pointer;
+    transition: 0.3s;
+    transition: background-color 0.5s ease-in-out;
+}
+.support-card:hover{
+    transform: translateY(-20px);
+    background-color: var(--dark-blue); 
+}
+
+.support-card:hover:nth-child(1) .icon-background-card , .support-card:hover:nth-child(2) .icon-background-card , .support-card:hover:nth-child(3) .icon-background-card ,.support-card:hover:nth-child(4) .icon-background-card{
+    background-color: white;
+}
+
+.support-card:nth-child(1) .icon-background-card {
+    background-color: #ff8c91;
+}
+
+.support-card:nth-child(2) .icon-background-card{
+    background-color: #ccffcc; 
+}
+
+.support-card:nth-child(3) .icon-background-card{
+    background-color: #ccccff;
+}
+
+.support-card:nth-child(4) .icon-background-card{
+    background-color: #ffffcc;
+}
+
+.icon-background-card{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border:2px dotted transparent;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    overflow: hidden;
+    margin: 0 auto 20px; 
+}
+.support-card h3{
+    font-family: "Jost", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: -2px;
+    transition: 0.5s;
+    font-family: "Jost", sans-serif;
+    color: #1a142e;
+    margin: 0;
+}
+
+.support-card p {
+    font-family: "Jost", sans-serif;
+    font-size: 18px;
+    color: #a39e9e;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-bottom: 0;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.support-card:hover h3
+{
+    color: #ffffff;
+}
+
+.support-card:hover  p {
+    color:#a39e9e
+}
+
+@media (min-width:280px) and (max-width:767px) {
+    .SupportCard-container {
+        gap: 32px;
+        padding: 84px 15px 40px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .support-card {
+        background-color: white;
+        text-align: center;
+        padding: 28px;
+        box-shadow: 0px 0px 117px 0px rgba(196, 206, 213, 0.24);
+        transition: all 0.3s ease-in-out;
+        border-radius: 0px;
+        width: -webkit-fill-available;
+        /* width: min-content; */
+        border-radius: 12px;
+        height: 247px
+        ;
+    }
+}
+@media (min-width:768px) and (max-width:1025px) {
+    .SupportCard-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 33px;
+        /* padding-top: 50px; */
+        padding-bottom: 50px;
+    }
+}
+
+@media (min-width:1320px) and (max-width:1574px) {
+    .SupportCard-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 47px;
+        /* padding-top: 50px; */
+        padding-bottom: 50px;
+    }
+}

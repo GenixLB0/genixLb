@@ -1,0 +1,103 @@
+.our-team-members-section {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.our-team-members-section .title {
+  display: flex;
+  width: 249.33px;
+  padding: 4.3px 19.653px 5.69px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  background: #e6efff;
+  color: #175cff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26.4px;
+  margin-bottom: 20px;
+}
+.our-team-members-section .title::before {
+  width: 10px;
+  height: 10px;
+  flex-shrink: 0;
+  content: "";
+  border-radius: 2px;
+  background: #ffc226;
+}
+.our-team-members-section .sub-title {
+  color: #292930;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-transform: capitalize;
+  margin-bottom: 50px;
+}
+.our-team-members-section .team-holder {
+  display: flex;
+  gap: 25px;
+  padding-top: 60px;
+}
+.our-team-members-section .member {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.our-team-members-section .member .name {
+  color: #292930;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  transform: translateY(20px);
+  line-height: 22px;
+}
+.our-team-members-section .member .job-title {
+  color: #292930;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  transform: translateY(20px);
+  line-height: 16px;
+}
+.our-team-members-section .member .share {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  padding: 11px 12.119px 11px 12.131px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: var(--dark-blue);
+
+  transform: translateY(20px);
+}
+.our-team-members-section .member img {
+  z-index: 2;
+}
+.our-team-members-section .member .member-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  border: 1px solid #ddd;
+  transform: translateY(-170px);
+  width: 270px;
+  height: 260px;
+}

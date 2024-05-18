@@ -1,0 +1,144 @@
+.FooterContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background:#0c0520;
+    ;
+    padding: 40px 0px 0px;
+}
+
+.FooterLink{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 600px;
+    padding: 30px 0px 0px;
+    cursor: pointer;
+}
+.FooterLink a{
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+    position: relative; 
+    font-family: "Jost", sans-serif;
+    cursor: pointer;
+    padding: 10px 0pc;
+    transition: 0.5s;
+}
+
+.FooterLink a:hover{
+    color: var(--blue);
+    transform: translateY(-5px);
+}
+.linkscontainer{
+    height: 211px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.CopyRightSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    gap: 53px;
+    border-top: 1px solid white;
+    width: 100%;
+}
+.copyRightInfo{
+    padding-right: 100px;
+}
+
+.copyRightInfo p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Jost", sans-serif;
+    letter-spacing: 1px;
+    color: white;
+}
+.socialMediaIcon button{
+    background: #0c0520;
+    border: none;
+}
+.socialMediaIcon{
+    display: flex;
+    flex-direction: row;
+    /* padding-top: 20px; */
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+    /* width: 16%; */
+}
+
+.img-logo-footer{
+    width: 120px;
+}
+/* .imgFooterContainer img{
+    width:-webkit-fill-available;
+    position: relative;
+    top: -128px;
+} */
+@media (min-width:280px) and (max-width:1100px) {
+    .ContainerTopFooter {
+        width: -webkit-fill-available;
+        left: 0;
+        padding: 20px 10px;
+        display: none;
+        flex-direction: column;
+    }
+    .linkscontainer {
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .ContentLeft img{
+        display: none;
+    }
+    .FooterLink {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: -webkit-fill-available;
+        padding: 20px 16px 20px;
+        cursor: pointer;
+        /* flex-direction: column; */
+        text-align: justify;
+        /* text-transform: lowercase !important; */
+        align-items: center;
+    }
+    .FooterLink a{
+        text-transform: capitalize;
+    }
+    .imgFooterContainer img{
+        width: 80px;
+        height: 80px;
+    }
+    .socialMediaIcon{
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .CopyRightSection {
+        justify-content: center;
+        padding: 17px 0px;
+        flex-direction: column-reverse;
+        width: -webkit-fill-available;
+        gap: 0;
+    }
+    .copyRightInfo{
+        padding-right: 0px;
+    }
+    .FooterContainer {
+        padding: 0px 0px 0px;
+    }
+    .img-logo-footer{
+        width: 175px;
+        height: 55px;
+    }
+}

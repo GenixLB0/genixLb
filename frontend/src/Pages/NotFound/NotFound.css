@@ -1,0 +1,44 @@
+.not-found {
+  height: 800px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 160px;
+}
+.not-found .home-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 60px;
+  /* border: 1px solid var(--blue); */
+  border-radius: 16px;
+  font-family: "Poppins";
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: 300ms;
+  background: linear-gradient(
+    275deg,
+    #403483 0.06%,
+    #3585a1 53.1%,
+    #27e7c5 99.94%
+  );
+  color: #fff;
+}
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+.not-found h2 {
+  margin-top: -100px;
+  margin-bottom: 60px;
+  font-size: 42px;
+  font-family: "Russo One";
+  color: #8c8c8c;
+  font-weight: 300;
+}
+@media (max-width: 767px) {
+  .not-found div:first-child {
+    width: 300px !important;
+    height: 200px !important;
+  }
+}

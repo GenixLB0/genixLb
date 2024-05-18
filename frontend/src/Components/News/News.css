@@ -1,0 +1,207 @@
+.news {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 150px;
+}
+.news .section-title {
+  display: flex;
+  height: 36px;
+  padding: 5px 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  border-radius: 5px;
+  background: #e6efff;
+  color: #175cff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.news .section-title::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+  background: #ffc226;
+}
+.news .sub-title {
+  display: flex;
+  height: 82px;
+  flex-direction: column;
+  justify-content: center;
+  color: #292930;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  text-transform: capitalize;
+}
+.news .cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+  width: 100%;
+  margin-top: 20px;
+}
+.mews .cards .card {
+  display: flex;
+  width: 370px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.news .cards .card .top {
+  width: 370px;
+  border: 1px solid #dddddd;
+  height: 247px;
+  border-bottom: none;
+  background-color: var(--bg-blue);
+}
+
+.news .cards .card .top .tag {
+  text-align: right;
+  display: flex;
+  width: 120px;
+  height: 36px;
+  padding: 5px 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  transform: translateY(20px);
+  margin-left: 230px;
+  border-radius: 30px;
+  background: var(--dark-blue);
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+.news .cards .card .bottom {
+  display: flex;
+  width: 368px;
+  padding: 30px 20px 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 14.5px;
+  border: 1px solid #ddd;
+}
+.news .cards .card .bottom .post-info {
+  /* width: 183px; */
+  display: flex;
+  height: 26px;
+  flex-direction: row;
+  justify-content: space-between;
+  /* gap: 10px; */
+  width: 100%;
+  color: #636363;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 15px;
+}
+.news .cards .card .bottom .post-title {
+  display: flex;
+  width: 312px;
+  height: 72px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  color: #292930;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+}
+.news .cards .card .bottom .post-desc {
+  display: flex;
+  width: 307px;
+  height: 51px;
+  flex-direction: column;
+  justify-content: center;
+  color: #636363;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+.news .cards .card .bottom .rate-read {
+  border-top: 1px solid #ddd;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.news .cards .card .bottom .rate-read .stars {
+  display: inline-flex;
+  height: 26px;
+  padding: 6px 4px 4px 0px;
+  align-items: flex-start;
+  gap: 9px;
+  flex-shrink: 0;
+  color: #ffc226;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+.news .cards .card .bottom .rate-read .read-more {
+  display: flex;
+  /* width: 84.35px; */
+  height: 14px;
+  /* flex-direction: column; */
+  justify-content: center;
+  flex-shrink: 0;
+  gap: 6px;
+  color: #636363;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.news .dots {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 62px;
+}
+.news .dots div {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  border: 2px solid #175cff;
+}
+.news .dots .active {
+  background-color: #175cff;
+}
+@media (max-width: 767px) {
+  .news .cards {
+    flex-direction: column;
+  }
+}
