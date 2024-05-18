@@ -32,7 +32,6 @@
     transform: translateY(-5px);
 }
 .linkscontainer{
-    height: 211px;
     width: 100%;
     display: flex;
     flex-direction: column;

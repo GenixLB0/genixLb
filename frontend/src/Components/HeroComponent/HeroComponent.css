@@ -96,7 +96,8 @@
 .animated-text {
   position: absolute;
   top: 440px;
-  right: 160px;
+  right:0px;
+  /* right: 160px; */
   /* z-index: 999; */
   z-index: 1;
   width: 800px;
