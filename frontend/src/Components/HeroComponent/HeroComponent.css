@@ -163,7 +163,7 @@
 }
 .container-hero .images-holder .images img {
   width: 300px;
-  height: 300px;
+  /* height: 300px; */
 }
 .container-hero .images-holder .left .images {
   animation: slideUp 10s infinite linear alternate;
