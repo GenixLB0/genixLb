@@ -1,9 +1,9 @@
 .robot-bg-component {
   /* background-image:linear-gradient(to bottom, #ff8c91, #42A3D0, #32CBC8); */
   /* border-radius: 20px; */
+  /* flex-wrap: wrap; */
   margin: -2px 0px;
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-around;
   align-items: center;
   gap: 30px;
@@ -47,19 +47,13 @@
     transform: translateX(0%);
   }
 }
-
 .robot-33 {
   transition: transform 1s ease-in-out;
 }
-
 .robot-33.animate {
   animation: slideLeftToRight 2s ease-in-out forwards;
 }
-
 @media (min-width: 280px) and (max-width: 1024px) {
-  .robot-bg-component .robot-image {
-    width: 367px;
-}
   .robot-bg-component {
     flex-direction: column-reverse;
     justify-content: center;

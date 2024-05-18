@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 128px;
-    padding-top: 50px;
+    /* padding-top: 50px; */
     padding-bottom: 50px;
 }
 
@@ -101,7 +101,7 @@
 @media (min-width:280px) and (max-width:767px) {
     .SupportCard-container {
         gap: 32px;
-        padding: 84px 15px 40px;
+        padding: 40px 22px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -115,7 +115,7 @@
         width: -webkit-fill-available;
         /* width: min-content; */
         border-radius: 12px;
-        height: 247px
+        height: 207px
         ;
     }
 }

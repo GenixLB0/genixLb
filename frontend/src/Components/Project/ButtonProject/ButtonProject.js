@@ -6,6 +6,20 @@ import ImageDisplay from "../ImageDisplay/ImageDisplay";
 import "../Project.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import shopshack from "../../../Images/projects/shop-shack.webp";
+import petberry from "../../../Images/projects/petberry.webp";
+import elbeit from "../../../Images/projects/elbeit-elkhalegy.webp";
+import xena from "../../../Images/projects/xenaperfume.webp";
+import ifran from "../../../Images/projects/ifran.webp";
+import courses from "../../../Images/projects/courses.webp";
+import etc from "../../../Images/projects/etc.webp";
+import hers from "../../../Images/projects/hers.webp";
+import homeHive from "../../../Images/projects/home-hive.webp";
+import rimat from "../../../Images/projects/rimat.webp";
+import sehatak from "../../../Images/projects/sehatak.webp";
+import chums from "../../../Images/projects/chums.webp";
+import velvet from "../../../Images/projects/velvet.webp";
+import vetline from "../../../Images/projects/vetline.webp";
 
 export default function ButtonProject() {
   const [selectedButton, setSelectedButton] = useState("button1");
@@ -29,7 +43,48 @@ export default function ButtonProject() {
   };
 
   const buttonImages = {
-    button1: [robot11, robot11, robot12, robot11, robot12, robot11],
+    // button1: [robot11, robot11, robot12, robot11, robot12, robot11],
+    button1: [
+      { name: "ShopShack", img: shopshack, link: "https://shopshack.shop/" },
+      { name: "PetBerry", img: petberry, link: "https://petberrylb.com/" },
+      {
+        name: "Elbeit Elkhaligi",
+        img: elbeit,
+        link: "https://elbetelkhaligi.com/",
+      },
+      { name: "Xena Perfume", img: xena, link: "https://xenaperfume.com/" },
+      { name: "ifran", img: ifran, link: "https://ifran2.genixarea.pro/" }, // temporary
+      {
+        name: "Barbish institution",
+        img: courses,
+        link: "http://barbishinstitution.com/",
+      },
+      { name: "ETC", img: etc, link: "https://etcenter.co/" },
+      {
+        name: "Her's Hair Expressions",
+        img: hers,
+        link: "https://hershairexpressions.ae/",
+      },
+      { name: "Home Hive", img: homeHive, link: "http://home-hive.net/" },
+      { name: "Rimaat", img: rimat, link: "https://rimaat.com/" },
+      {
+        name: "Sahtak Teswa Eldenia",
+        img: sehatak,
+        link: "http://sahtakteswaeldenia.com/",
+      },
+      { name: "The Chums", img: chums, link: "https://the-chums.com/" },
+      {
+        name: "Velvet Aesthetic",
+        img: velvet,
+        link: "https://velvet-aesthetic.com/",
+      },
+      { name: "Vetline", img: vetline, link: "https://vetlinelb.com/" },
+      // robot11,
+      // robot12,
+      // robot11,
+      // robot12,
+      // robot11,
+    ],
     button2: [robot11, robot11],
     button3: [robot11, robot11, robot11],
     button4: [],
