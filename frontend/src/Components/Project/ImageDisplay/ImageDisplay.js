@@ -9,7 +9,7 @@ import {
 export default function ImageDisplay({ images }) {
   const [currentPage, setCurrentPage] = useState(1);
   const [isMobile, setIsMobile] = useState(false);
-  const imagesPerPage = 2;
+  const imagesPerPage = 4;
 
   useEffect(() => {
     const handleResize = () => {

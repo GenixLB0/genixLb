@@ -121,10 +121,15 @@
     grid-template-columns: repeat(1, min-content);
     padding-top: 70px;
     padding: 50px 0px;
+    width: unset;
   }
-
+  .continer-of-image-project .project-item {
+    width: 320px;
+    height: fit-content;
+  }
   .continer-of-image-project img {
-    width: -webkit-fill-available;
+    /* width: 300px; */
+    height: 180px;
   }
 
   .container-of-btt-66 {
